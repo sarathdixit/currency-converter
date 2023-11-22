@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Currency Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Project Description
 
-## Available Scripts
+Currency Converter is a web application that allows users to convert amounts between different currencies. This project demonstrates the use of React, Formik, and Axios to create a user-friendly interface for currency conversion.
 
-In the project directory, you can run:
+#### Features
 
-### `npm start`
+- Currency conversion between USD, INR, and EUR.
+- Real-time conversion rates.
+- User-friendly interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+#### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What things you need to install the software:
 
-### `npm run build`
+- Node.js and npm (Node.js 14 or higher is recommended)
+- A modern web browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Installing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A step-by-step series of examples that tell you how to get a development environment running:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone the repository
 
-### `npm run eject`
+```
+git clone https://your-repository-url.git
+cd currency-converter
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Start the development server
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Running test
+
+```
+npm test
+```
+
+Note: When running tests, there may be issues related to the axios-mock-adapter package, which is used for mocking API calls in tests. These issues can cause tests to fail unexpectedly. For more details on the specific problem and ongoing discussions, see the GitHub issue [axios-mock-adapter Issue #377.](https://github.com/ctimmerm/axios-mock-adapter/issues/377)

@@ -1,0 +1,23 @@
+.formWrapper {
+  height: 300px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: #fff;
+
+  .result {
+    font-size: 28px;
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .formWrapper {
+    width: 700px;
+    padding: 60px 80px;
+    .selectionWrapper {
+      display: flex;
+      gap: 28px;
+    }
+  }
+}
